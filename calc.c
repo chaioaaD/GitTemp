@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+float mult(float one, float two) {
+	printf("Parabens, voce usou a funcao de multiplicacao");
+	return one*two;
+}
+
+
 int main() {
   float n1, n2;
   printf("Escreva o primeiro numero: ");
