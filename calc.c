@@ -9,3 +9,7 @@ int main() {
   printf("Os numeros sao %.4f, %.4f\n", n1, n2);
   return 0;
 }
+
+float add(int n1, int n2) {
+  return n1 + n2;
+}
